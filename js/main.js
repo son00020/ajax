@@ -12,7 +12,7 @@ function getNumbers(ev) {
     let flag = false;
 //    let generateMessage = document.querySelector('#message');
 //    generateMessage.innerHTML = '';
-//    let url = 'http://localhost/mad9014-lotto/nums.php';
+    let url = 'http://localhost/mad9014-lotto/nums.php';
     let fd = new FormData();
     let digits = document.getElementById('digits').value;
     let max = document.getElementById('max').value;
